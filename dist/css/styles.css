@@ -11378,3 +11378,45 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
+.wrapper .parallax-container {
+    display: flex;
+    align-items: stretch;
+    min-height: 80vh;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.wrapper .parallax-container .parallax {
+    flex: 1 1 auto;
+    background-image: url('mashhead.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: -10%;
+    left: -10%;
+    right: -10%;
+    bottom: -10%;
+    color: #ffffff;
+    text-align: center;
+}
+.wrapper .parallax-container .parallax h1 {
+    font-size: 6rem;
+    line-height: 6.75rem;
+    font-family: "Permanent Marker", cursive;
+    letter-spacing: 3px;
+    margin: 0;
+}
+.wrapper .parallax-container .parallax .line {
+    border-style: solid;
+    border-width: 0.05rem;
+    margin: 0.5rem 0;
+}
+.wrapper .parallax-container .parallax span {
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
