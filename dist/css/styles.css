@@ -11409,14 +11409,17 @@ header.masthead .bg-circle-4 {
     font-family: "Bungee", cursive;
     letter-spacing: 3px;
     margin: 0;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 .wrapper .parallax-container .parallax .line {
     border-style: solid;
     border-width: 0.05rem;
     margin: 0.5rem 0;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 .wrapper .parallax-container .parallax span {
     font-family: "Bungee", cursive;
     font-weight: bold;
     letter-spacing: 1px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
